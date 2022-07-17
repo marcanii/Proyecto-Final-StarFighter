@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\SIS457\\Proyecto Final\\StarFighter\\Source\\StarFighter\\StarFighter.Build.cs",
+		"C:\\SIS457\\Proyecto Final\\StarFighter\\Source\\StarFighter.Target.cs",
+		"C:\\SIS457\\Proyecto Final\\StarFighter\\Source\\StarFighterEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

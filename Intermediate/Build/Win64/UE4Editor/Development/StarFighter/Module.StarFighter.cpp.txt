@@ -1,0 +1,173 @@
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\Definitions.StarFighter.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/Asteroids.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\Asteroids.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\Asteroids.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PlayerShip.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\SpaceShip.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/ParticlePerfStats.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\SpaceShip.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PlayerShip.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\LevelPass.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\LevelPass.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_BulletAmmunition1.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_BulletAmmunition1.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\MyCapsule.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\MyCapsule.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_BulletAmmunition1.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_BulletAmmunition2.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_BulletAmmunition2.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_BulletAmmunition2.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_CapsulePass.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_CapsulePass.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_CapsulePass.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_EmpowerWeapon.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_EmpowerWeapon.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_EmpowerWeapon.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_Energy.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_Energy.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_Energy.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_LaserAmmunition.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_LaserAmmunition.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_LaserAmmunition.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_Life.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_Life.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_Life.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_MissileAmmunition.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_MissileAmmunition.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_MissileAmmunition.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_NegativeEnergy.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_NegativeEnergy.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_NegativeEnergy.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_NegativeSpeed.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_NegativeSpeed.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_NegativeSpeed.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_Shield.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_Shield.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_Shield.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/C_Speed.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\C_Speed.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\C_Speed.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/EnemyLevel1.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\EnemyLevel1.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\EnemyShip.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\EnemyShip.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\EnemyLevel1.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/EnemyLevel2.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\EnemyLevel2.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\EnemyLevel2.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PJ_BulletEnemyLevel1.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\Projectile.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\Projectile.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PJ_BulletEnemyLevel1.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/EnemyLevel3.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\EnemyLevel3.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\EnemyLevel3.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/EnemyLevel4.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\EnemyLevel4.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\EnemyLevel4.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PJ_BulletEnemyBounce.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PJ_BulletEnemyBounce.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PJ_BulletEnemyLevel2.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PJ_BulletEnemyLevel2.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/EnemyLevel5.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\EnemyLevel5.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\EnemyLevel5.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/EnemyShip.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/LevelPass.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/MotherShipLevel1.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\MotherShipLevel1.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\MotherShipLevel1.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/MotherShipLevel2.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\MotherShipLevel2.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\MotherShipLevel2.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/MotherShipLevel3.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\MotherShipLevel3.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\MotherShipLevel3.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/MotherShipLevel4.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\MotherShipLevel4.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\MotherShipLevel4.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/MotherShipLevel5.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\MotherShipLevel5.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\MotherShipLevel5.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/MyCapsule.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PaB_BattleSquadsReady.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaB_BattleSquadsReady.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaB_SquadBuilder.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaB_SquadBuilder.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaB_BattleSquadsReady.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaB_Squadron.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaB_SquadMembers.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaB_SquadMembers.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaB_Squadron.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PaB_EnemyMasterChief.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaB_EnemyMasterChief.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaB_EnemyMasterChief.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PaB_Squadron.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PaFM_AmmoPodGenerator.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaFM_AmmoPodGenerator.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaFM_CapsuleGenerator.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaFM_CapsuleGenerator.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaFM_AmmoPodGenerator.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PaFM_CapsuleGenerator.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PaFM_PowerCapsuleGenerator.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaFM_PowerCapsuleGenerator.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaFM_PowerCapsuleGenerator.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PaFM_WeaponCapsuleGenerator.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaFM_WeaponCapsuleGenerator.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaFM_WeaponCapsuleGenerator.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PaS_Scenery.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaS_Scenery.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaS_Scenery.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/Pass.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\Pass.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\Pass.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_BulletEnemyBounce.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_BulletEnemyLevel1.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_BulletEnemyLevel2.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_BulletLevel1.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PJ_BulletLevel1.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PJ_BulletLevel1.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_BulletLevel2.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PJ_BulletLevel2.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PJ_BulletLevel2.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_Laser.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PJ_Laser.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PJ_Laser.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_Missile.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PJ_Missile.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PJ_Missile.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PlayerShip.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/Projectile.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/SpaceShip.cpp
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/StarFighter.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\StarFighter.h
+C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/StarFighterGameModeBase.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\StarFighterGameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\StarFighterGameModeBase.generated.h
