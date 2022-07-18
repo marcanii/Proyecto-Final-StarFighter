@@ -494,25 +494,57 @@ void APlayerShip::ShootMissile()
 
 void APlayerShip::ShootWeapon()
 {
-	if (ValueShootWeapon == 1)
+	if (ValueShootWeapon == 1 && NumbersBulletsGun1 > 0)
 	{
 		APaS_Bullet1* Bullet1 = GetWorld()->SpawnActor<APaS_Bullet1>(APaS_Bullet1::StaticClass());
 		TypeOfWeapon->AlterShoot(Bullet1);
+		NumbersBulletsGun1 -= 1;
+
+		if (NumbersBulletsGun1 <= 0)
+			TypeOfWeapon->AlterShoot(nullptr);
+
+		// sonido de disparo
+		if (SoundBullet1 != nullptr)
+			UGameplayStatics::PlaySoundAtLocation(this, SoundBullet1, GetActorLocation());
+		
 	}
-	if (ValueShootWeapon == 2)
+	if (ValueShootWeapon == 2 && NumbersBulletsGun2 > 0)
 	{
 		APaS_Bullet2* Bullet2 = GetWorld()->SpawnActor<APaS_Bullet2>(APaS_Bullet2::StaticClass());
 		TypeOfWeapon->AlterShoot(Bullet2);
+		NumbersBulletsGun2 -= 1;
+
+		if (NumbersBulletsGun2 <= 0)
+			TypeOfWeapon->AlterShoot(nullptr);
+
+		// sonido de disparo
+		if (SoundBullet2 != nullptr)
+			UGameplayStatics::PlaySoundAtLocation(this, SoundBullet2, GetActorLocation());
 	}
-	if (ValueShootWeapon == 3)
+	if (ValueShootWeapon == 3 && NumbersLaserBullets > 0)
 	{
 		APaS_Lasser* Lasser = GetWorld()->SpawnActor<APaS_Lasser>(APaS_Lasser::StaticClass());
 		TypeOfWeapon->AlterShoot(Lasser);
+		NumbersLaserBullets -= 1;
+
+		if (NumbersLaserBullets <= 0)
+			TypeOfWeapon->AlterShoot(nullptr);
+
+		if (SoundLaser != nullptr)
+			UGameplayStatics::PlaySoundAtLocation(this, SoundLaser, GetActorLocation());
 	}
-	if (ValueShootWeapon == 4)
+	if (ValueShootWeapon == 4 && NumbersMissileBullets > 0)
 	{
 		APaS_Missile* Missilee = GetWorld()->SpawnActor<APaS_Missile>(APaS_Missile::StaticClass());
 		TypeOfWeapon->AlterShoot(Missilee);
+		NumbersMissileBullets -= 1;
+
+		if (NumbersMissileBullets <= 0)
+			TypeOfWeapon->AlterShoot(nullptr);
+
+		if (SoundMissile != nullptr)
+			UGameplayStatics::PlaySoundAtLocation(this, SoundMissile, GetActorLocation());
+
 	}
 
 	FVector LocationPlayer = GetActorLocation();

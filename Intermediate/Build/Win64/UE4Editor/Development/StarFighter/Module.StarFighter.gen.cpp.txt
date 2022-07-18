@@ -119,9 +119,27 @@ C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\Star
 C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PaFM_WeaponCapsuleGenerator.gen.cpp
 C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/PaFM_WeaponCapsuleGenerator.h
 C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaFM_WeaponCapsuleGenerator.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PaS_Bullet1.gen.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/PaS_Bullet1.h
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaS_ChangeWeapon.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaS_ChangeWeapon.generated.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaS_Bullet1.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PaS_Bullet2.gen.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/PaS_Bullet2.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaS_Bullet2.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PaS_ChangeWeapon.gen.cpp
+C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PaS_Lasser.gen.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/PaS_Lasser.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaS_Lasser.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PaS_Missile.gen.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/PaS_Missile.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaS_Missile.generated.h
 C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PaS_Scenery.gen.cpp
 C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/PaS_Scenery.h
 C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaS_Scenery.generated.h
+C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PaS_TypeOfWeapon.gen.cpp
+C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/PaS_TypeOfWeapon.h
+C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaS_TypeOfWeapon.generated.h
 C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/Pass.gen.cpp
 C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/Pass.h
 C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\Pass.generated.h
@@ -157,6 +175,7 @@ C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/PlayerShip.h
 C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PlayerShip.generated.h
 C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/Projectile.gen.cpp
 C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/SpaceShip.gen.cpp
+C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/StarFighter.init.gen.cpp
 C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/StarFighterGameModeBase.gen.cpp
 C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/StarFighterGameModeBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h

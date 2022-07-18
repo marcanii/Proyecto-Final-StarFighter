@@ -10,7 +10,7 @@ void APaS_TypeOfWeapon::AlterShoot(AActor* MyChanceWeapon)
 
 	if (!ChangeWeapon)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, TEXT("Cast invalido! Consulte Registro de salida para obtener más detalles."));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, TEXT("Cast invalido! Consulte Registro de salida para obtener más detalles."));
 		UE_LOG(LogTemp, Error, TEXT("AlterShoot(): ¡El actor no es una estrategia de ChangeWeapon! ¿Estás seguro de que el actor implementa esa interfaz? "));
 	}
 }

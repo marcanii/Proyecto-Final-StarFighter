@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-StarFighter-0013.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\StarFighterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\PlayerShip.cpp.obj"
+"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\Module.StarFighter.cpp.obj"
+"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\Module.StarFighter.gen.cpp.obj"
+"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\Default.rc2.res"
+/OUT:"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\UE4Editor-StarFighter-0013.lib"
