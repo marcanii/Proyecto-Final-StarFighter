@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\StarFighter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A59EDC29-E8D7-4339-89C4-BA1731BEB192}</UniqueIdentifier>
+      <UniqueIdentifier>{FCC5A0A6-C76A-4F9B-A514-46CE1D779022}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\StarFighter.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\StarFighterEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F29D35F5-9C9B-45DE-B45D-4F8648580C40}</UniqueIdentifier>
+      <UniqueIdentifier>{9E62C901-D4C9-46B3-8915-B90C2ED0E283}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\StarFighter">
-      <UniqueIdentifier>{684E269E-F0CA-4F84-89FC-19312F11D93C}</UniqueIdentifier>
+      <UniqueIdentifier>{45167F4F-224A-4711-BCBA-CD13CFC4F790}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\StarFighter\Asteroids.cpp">
       <Filter>Source\StarFighter</Filter>

@@ -276,6 +276,8 @@
     <None Include="..\..\StarFighter.uproject"/>
     <None Include="..\..\Source\StarFighter.Target.cs"/>
     <None Include="..\..\Source\StarFighterEditor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
