@@ -159,7 +159,6 @@ C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\Star
 C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_Missile.cpp
 C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PJ_Missile.h
 C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PJ_Missile.generated.h
-C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PlayerShip.cpp
 C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/Projectile.cpp
 C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/SpaceShip.cpp
 C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/StarFighter.cpp

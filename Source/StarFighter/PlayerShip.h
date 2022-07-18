@@ -52,6 +52,7 @@ private:
 	static const FName BulletLevel2;
 	static const FName Laser;
 	static const FName Missile;
+	static const FName Shoot;
 
 	// Metodos para el movimiento de la nave jugador
 	void MoveHorizontal(float AxisValue);
@@ -62,6 +63,7 @@ private:
 	void ShootBullet2();	// para la bala de nivel 2
 	void ShootLaser();		// para el laser
 	void ShootMissile();	// para el misil
+	void ShootWeapon();
 
 	// variables para el sistema de disparos
 	FVector BulletShotDistance11;
@@ -101,6 +103,10 @@ private:
 
 	// para el game over
 	int GameOver;
+
+	class APaS_TypeOfWeapon* TypeOfWeapon;
+
+	int32 ValueShootWeapon;
 
 protected:
 	// Llamado cuando comienza el juego o cuando se genera

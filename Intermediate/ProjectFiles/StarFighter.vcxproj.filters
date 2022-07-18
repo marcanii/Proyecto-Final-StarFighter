@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\StarFighter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FCC5A0A6-C76A-4F9B-A514-46CE1D779022}</UniqueIdentifier>
+      <UniqueIdentifier>{98E0590B-1886-463E-8D6F-E31439062343}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\StarFighter.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9E62C901-D4C9-46B3-8915-B90C2ED0E283}</UniqueIdentifier>
+      <UniqueIdentifier>{10D0ED9F-29B0-4248-95F8-B292CFA5C341}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\StarFighter">
-      <UniqueIdentifier>{45167F4F-224A-4711-BCBA-CD13CFC4F790}</UniqueIdentifier>
+      <UniqueIdentifier>{22673F1D-D30D-4DF3-BE98-F3AACEA2107B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\StarFighter\Asteroids.cpp">
       <Filter>Source\StarFighter</Filter>
@@ -241,10 +241,46 @@
     <ClInclude Include="..\..\Source\StarFighter\Pass.h">
       <Filter>Source\StarFighter</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\StarFighter\PaS_Bullet1.cpp">
+      <Filter>Source\StarFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFighter\PaS_Bullet1.h">
+      <Filter>Source\StarFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\StarFighter\PaS_Bullet2.cpp">
+      <Filter>Source\StarFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFighter\PaS_Bullet2.h">
+      <Filter>Source\StarFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\StarFighter\PaS_ChangeWeapon.cpp">
+      <Filter>Source\StarFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFighter\PaS_ChangeWeapon.h">
+      <Filter>Source\StarFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\StarFighter\PaS_Lasser.cpp">
+      <Filter>Source\StarFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFighter\PaS_Lasser.h">
+      <Filter>Source\StarFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\StarFighter\PaS_Missile.cpp">
+      <Filter>Source\StarFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFighter\PaS_Missile.h">
+      <Filter>Source\StarFighter</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\StarFighter\PaS_Scenery.cpp">
       <Filter>Source\StarFighter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\StarFighter\PaS_Scenery.h">
+      <Filter>Source\StarFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\StarFighter\PaS_TypeOfWeapon.cpp">
+      <Filter>Source\StarFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\StarFighter\PaS_TypeOfWeapon.h">
       <Filter>Source\StarFighter</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\StarFighter\PJ_BulletEnemyBounce.cpp">
@@ -322,5 +358,6 @@
     <ClInclude Include="..\..\Source\StarFighter\StarFighterGameModeBase.h">
       <Filter>Source\StarFighter</Filter>
     </ClInclude>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

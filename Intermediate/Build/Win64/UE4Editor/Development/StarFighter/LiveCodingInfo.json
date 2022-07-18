@@ -44,11 +44,17 @@
 			"PJ_BulletLevel2.cpp.obj",
 			"PJ_Laser.cpp.obj",
 			"PJ_Missile.cpp.obj",
-			"PlayerShip.cpp.obj",
 			"Projectile.cpp.obj",
 			"SpaceShip.cpp.obj",
 			"StarFighter.cpp.obj",
-			"StarFighterGameModeBase.cpp.obj"
+			"StarFighterGameModeBase.cpp.obj",
+			"PaS_Bullet1.cpp.obj",
+			"PaS_Bullet2.cpp.obj",
+			"PaS_ChangeWeapon.cpp.obj",
+			"PaS_Lasser.cpp.obj",
+			"PaS_Missile.cpp.obj",
+			"PaS_TypeOfWeapon.cpp.obj",
+			"PlayerShip.cpp.obj"
 		],
 		"Module.StarFighter.gen.cpp.obj": [
 			"Asteroids.gen.cpp.obj",
@@ -98,8 +104,14 @@
 			"PlayerShip.gen.cpp.obj",
 			"Projectile.gen.cpp.obj",
 			"SpaceShip.gen.cpp.obj",
-			"StarFighter.init.gen.cpp.obj",
-			"StarFighterGameModeBase.gen.cpp.obj"
+			"StarFighterGameModeBase.gen.cpp.obj",
+			"PaS_Bullet1.gen.cpp.obj",
+			"PaS_Bullet2.gen.cpp.obj",
+			"PaS_ChangeWeapon.gen.cpp.obj",
+			"PaS_Lasser.gen.cpp.obj",
+			"PaS_Missile.gen.cpp.obj",
+			"PaS_TypeOfWeapon.gen.cpp.obj",
+			"StarFighter.init.gen.cpp.obj"
 		]
 	}
 }

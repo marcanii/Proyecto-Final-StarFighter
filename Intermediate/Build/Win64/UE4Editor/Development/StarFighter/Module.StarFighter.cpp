@@ -41,7 +41,6 @@
 #include "C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_BulletLevel2.cpp"
 #include "C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_Laser.cpp"
 #include "C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PJ_Missile.cpp"
-#include "C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/PlayerShip.cpp"
 #include "C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/Projectile.cpp"
 #include "C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/SpaceShip.cpp"
 #include "C:/SIS457/Proyecto Final/StarFighter/Source/StarFighter/StarFighter.cpp"

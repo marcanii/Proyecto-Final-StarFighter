@@ -157,7 +157,6 @@ C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/PlayerShip.h
 C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PlayerShip.generated.h
 C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/Projectile.gen.cpp
 C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/SpaceShip.gen.cpp
-C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/StarFighter.init.gen.cpp
 C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/StarFighterGameModeBase.gen.cpp
 C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter/StarFighterGameModeBase.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
