@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\StarFighter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{98E0590B-1886-463E-8D6F-E31439062343}</UniqueIdentifier>
+      <UniqueIdentifier>{CD4907BE-7FAD-4F4A-9C2A-716D16111610}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\StarFighter.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{10D0ED9F-29B0-4248-95F8-B292CFA5C341}</UniqueIdentifier>
+      <UniqueIdentifier>{D951681F-ED8C-4C48-B14A-40151335A9AF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\StarFighter">
-      <UniqueIdentifier>{22673F1D-D30D-4DF3-BE98-F3AACEA2107B}</UniqueIdentifier>
+      <UniqueIdentifier>{4842F3A7-CAEC-4B96-B19F-1121247ED279}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\StarFighter\Asteroids.cpp">
       <Filter>Source\StarFighter</Filter>
@@ -253,9 +253,6 @@
     <ClInclude Include="..\..\Source\StarFighter\PaS_Bullet2.h">
       <Filter>Source\StarFighter</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\StarFighter\PaS_ChangeWeapon.cpp">
-      <Filter>Source\StarFighter</Filter>
-    </ClCompile>
     <ClInclude Include="..\..\Source\StarFighter\PaS_ChangeWeapon.h">
       <Filter>Source\StarFighter</Filter>
     </ClInclude>

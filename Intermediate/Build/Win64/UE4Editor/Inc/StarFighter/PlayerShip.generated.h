@@ -17,6 +17,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define StarFighter_Source_StarFighter_PlayerShip_h_13_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execgetGameOver); \
+	DECLARE_FUNCTION(execsetScoreValue); \
 	DECLARE_FUNCTION(execgetScoreValue); \
 	DECLARE_FUNCTION(execgetLevelValue); \
 	DECLARE_FUNCTION(execgetNumbersMissileBullets); \
@@ -31,6 +32,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define StarFighter_Source_StarFighter_PlayerShip_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execgetGameOver); \
+	DECLARE_FUNCTION(execsetScoreValue); \
 	DECLARE_FUNCTION(execgetScoreValue); \
 	DECLARE_FUNCTION(execgetLevelValue); \
 	DECLARE_FUNCTION(execgetNumbersMissileBullets); \

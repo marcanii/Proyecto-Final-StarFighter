@@ -1,9 +1,7 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 
 #include "PaS_TypeOfWeapon.h"
 
-
+// cambiar de arma
 void APaS_TypeOfWeapon::AlterShoot(AActor* MyChanceWeapon)
 {
 	ChangeWeapon = Cast<IPaS_ChangeWeapon>(MyChanceWeapon);
@@ -15,13 +13,14 @@ void APaS_TypeOfWeapon::AlterShoot(AActor* MyChanceWeapon)
 	}
 }
 
-void APaS_TypeOfWeapon::Change(FVector _LocationPlayer)
+// usar armar
+void APaS_TypeOfWeapon::UseWeapon(FVector _LocationPlayer, bool Activate)
 {
 	if (!ChangeWeapon)
 	{
 		UE_LOG(LogTemp, Error, TEXT("Change(): ChangeWeapon es NULL, asegúrese de que esté inicializado."));
 		return;
 	}
-	ChangeWeapon->ShootWeapon(_LocationPlayer);
+	ChangeWeapon->ShootWeapon(_LocationPlayer, Activate);
 }
 

@@ -1,4 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -13,6 +12,6 @@ class STARFIGHTER_API APaS_Lasser : public AActor, public IPaS_ChangeWeapon
 	GENERATED_BODY()
 	
 public:	
-	
-	void ShootWeapon(FVector LocationPlayer) override;
+	// metodo de disparo de armas
+	void ShootWeapon(FVector LocationPlayer, bool WeaponPower) override;
 };

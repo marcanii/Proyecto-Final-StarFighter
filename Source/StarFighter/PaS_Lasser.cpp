@@ -1,9 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #include "PaS_Lasser.h"
 #include "PJ_Laser.h"
 
-void APaS_Lasser::ShootWeapon(FVector LocationPlayer)
+// metodo de disparo de armas
+void APaS_Lasser::ShootWeapon(FVector LocationPlayer, bool WeaponPower)
 {
 	const FVector FireDirection = FVector(1.f, 0.f, 0.f);
 	const FRotator FireRotation = FireDirection.Rotation();

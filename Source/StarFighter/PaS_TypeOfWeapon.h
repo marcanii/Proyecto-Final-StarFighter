@@ -1,4 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -16,8 +15,8 @@ private:
 	IPaS_ChangeWeapon* ChangeWeapon;
 
 public:
-
+	// metodo para cambiar el arma
 	void AlterShoot(AActor* MyChanceWeapon);
-
-	void Change(FVector _LocationPlayer);
+	// metodo para usar el arma 
+	void UseWeapon(FVector _LocationPlayer, bool Activate);
 };

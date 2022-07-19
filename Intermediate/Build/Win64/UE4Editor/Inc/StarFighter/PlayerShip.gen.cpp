@@ -32,6 +32,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		*(int32*)Z_Param__Result=P_THIS->getGameOver();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(APlayerShip::execsetScoreValue)
+	{
+		P_GET_PROPERTY(FIntProperty,Z_Param__Score);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->setScoreValue(Z_Param__Score);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(APlayerShip::execgetScoreValue)
 	{
 		P_FINISH;
@@ -109,6 +117,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 			{ "getNumbersLaserBullets", &APlayerShip::execgetNumbersLaserBullets },
 			{ "getNumbersMissileBullets", &APlayerShip::execgetNumbersMissileBullets },
 			{ "getScoreValue", &APlayerShip::execgetScoreValue },
+			{ "setScoreValue", &APlayerShip::execsetScoreValue },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -452,6 +461,40 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_APlayerShip_setScoreValue_Statics
+	{
+		struct PlayerShip_eventsetScoreValue_Parms
+		{
+			int32 _Score;
+		};
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__Score;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_APlayerShip_setScoreValue_Statics::NewProp__Score = { "_Score", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(PlayerShip_eventsetScoreValue_Parms, _Score), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APlayerShip_setScoreValue_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APlayerShip_setScoreValue_Statics::NewProp__Score,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APlayerShip_setScoreValue_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// devuelve el record del jugador\n" },
+		{ "ModuleRelativePath", "PlayerShip.h" },
+		{ "ToolTip", "devuelve el record del jugador" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APlayerShip_setScoreValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APlayerShip, nullptr, "setScoreValue", nullptr, nullptr, sizeof(PlayerShip_eventsetScoreValue_Parms), Z_Construct_UFunction_APlayerShip_setScoreValue_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerShip_setScoreValue_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APlayerShip_setScoreValue_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APlayerShip_setScoreValue_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APlayerShip_setScoreValue()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APlayerShip_setScoreValue_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_APlayerShip_NoRegister()
 	{
 		return APlayerShip::StaticClass();
@@ -504,6 +547,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SoundMissile;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SoundSelectWeapon_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SoundSelectWeapon;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthWidgetComp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HealthWidgetComp;
@@ -526,6 +573,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		{ &Z_Construct_UFunction_APlayerShip_getNumbersLaserBullets, "getNumbersLaserBullets" }, // 597202226
 		{ &Z_Construct_UFunction_APlayerShip_getNumbersMissileBullets, "getNumbersMissileBullets" }, // 398393839
 		{ &Z_Construct_UFunction_APlayerShip_getScoreValue, "getScoreValue" }, // 1826983691
+		{ &Z_Construct_UFunction_APlayerShip_setScoreValue, "setScoreValue" }, // 2841087828
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerShip_Statics::Class_MetaDataParams[] = {
@@ -629,6 +677,15 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundMissile = { "SoundMissile", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerShip, SoundMissile), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundMissile_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundMissile_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundSelectWeapon_MetaData[] = {
+		{ "Category", "Componentes" },
+		{ "Comment", "// sonido de disparo misil\n" },
+		{ "ModuleRelativePath", "PlayerShip.h" },
+		{ "ToolTip", "sonido de disparo misil" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundSelectWeapon = { "SoundSelectWeapon", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerShip, SoundSelectWeapon), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundSelectWeapon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundSelectWeapon_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerShip_Statics::NewProp_HealthWidgetComp_MetaData[] = {
 		{ "Category", "PlayerShip" },
 		{ "EditInline", "true" },
@@ -647,6 +704,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundBullet2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundLaser,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundMissile,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerShip_Statics::NewProp_SoundSelectWeapon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerShip_Statics::NewProp_HealthWidgetComp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlayerShip_Statics::StaticCppClassTypeInfo = {
@@ -676,7 +734,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerShip, 248999096);
+	IMPLEMENT_CLASS(APlayerShip, 959228298);
 	template<> STARFIGHTER_API UClass* StaticClass<APlayerShip>()
 	{
 		return APlayerShip::StaticClass();

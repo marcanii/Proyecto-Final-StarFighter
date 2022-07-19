@@ -1,3 +1,0 @@
-C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\Definitions.StarFighter.h
-C:\SIS457\Proyecto Final\StarFighter\Source\StarFighter\PaS_ChangeWeapon.h
-C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Inc\StarFighter\PaS_ChangeWeapon.generated.h

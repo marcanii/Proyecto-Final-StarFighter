@@ -39,6 +39,9 @@ public:
 		class USoundBase* SoundLaser;	// sonido de disparo laser
 	UPROPERTY(EditAnywhere, Category = "Componentes")
 		class USoundBase* SoundMissile;	// sonido de disparo misil
+	UPROPERTY(EditAnywhere, Category = "Componentes")
+		class USoundBase* SoundSelectWeapon;	// sonido de seleccionar arma
+	
 
 	// propiedad de tipo level pase para obtener el puntaje y el nivel en el que esta el jugador
 	class ALevelPass* LevelPass;
@@ -171,6 +174,9 @@ public:
 	// devuelve el record del jugador
 	UFUNCTION(BlueprintCallable)
 		int getScoreValue() { return ScorePlayerShip; };
+	// devuelve el record del jugador
+	UFUNCTION(BlueprintCallable)
+		void setScoreValue(int _Score) { ScorePlayerShip = _Score; };
 	// devuelve true o false de que si el jugador murio
 	UFUNCTION(BlueprintCallable)
 		int getGameOver() { return GameOver; }

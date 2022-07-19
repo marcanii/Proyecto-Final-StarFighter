@@ -34,6 +34,11 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\StarFighterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\PaS_Bullet1.cpp.obj"
+"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\PaS_Bullet2.cpp.obj"
+"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\PaS_Lasser.cpp.obj"
+"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\PaS_Missile.cpp.obj"
+"C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\PaS_TypeOfWeapon.cpp.obj"
 "C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\PlayerShip.cpp.obj"
 "C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\Module.StarFighter.cpp.obj"
 "C:\SIS457\Proyecto Final\StarFighter\Intermediate\Build\Win64\UE4Editor\Development\StarFighter\Module.StarFighter.gen.cpp.obj"

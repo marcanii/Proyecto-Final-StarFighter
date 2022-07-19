@@ -72,15 +72,6 @@ APlayerShip::APlayerShip()
 	ShipParticle->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
 	ShipCollision->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
 
-	// vectores para el dispario (distancia)
-	BulletShotDistance11 = FVector(40.f, 20.f, 0.f);
-	BulletShotDistance12 = FVector(40.f, 0.f, 0.f);
-	BulletShotDistance13 = FVector(40.f, -20.f, 0.f);
-	BulletShotDistance21 = FVector(65.f, 20.f, 0.f);
-	BulletShotDistance22 = FVector(65.f, 0.f, 0.f);
-	BulletShotDistance23 = FVector(65.f, -20.f, 0.f);
-	LaserShotDistance = FVector(700.f, 0.f, 0.f);
-	MissileShotDistance = FVector(73.f, 0.f, 0.f);
 
 	// variables activar speed, negativeespeed y empowerbullets
 	NegVelocity = 0.f;
@@ -90,7 +81,12 @@ APlayerShip::APlayerShip()
 	NegVel = false;
 	PosBull = false;
 
+	// para seleccionar las armas a usar
 	ValueShootWeapon = 0;
+
+	// creando sonido de seleccionar arma
+	static ConstructorHelpers::FObjectFinder<USoundBase> EatAudio(TEXT("SoundWave'/Game/Sound/ComerCapsula.ComerCapsula'"));
+	SoundSelectWeapon = EatAudio.Object;
 }
 
 // Llamado cuando comienza el juego o cuando se genera
@@ -118,6 +114,11 @@ void APlayerShip::BeginPlay()
 	LevelPass = GetWorld()->SpawnActor<ALevelPass>(ALevelPass::StaticClass());
 
 	Pass = GetWorld()->SpawnActor<APass>(APass::StaticClass());
+
+	// puntaje del jugador inicializando en 0
+	ScorePlayerShip = LevelPass->getScore();
+	LevelPass->setScore(-ScorePlayerShip);
+
 	// nivel valor
 	LevelValue = 1;
 
@@ -127,6 +128,7 @@ void APlayerShip::BeginPlay()
 	// game over si es 0 sigue vivo si es 1 ya muerto el jugador
 	GameOver = 0;
 
+	// actor estatico para pasar el arma que se escogio y disparar
 	TypeOfWeapon = GetWorld()->SpawnActor<APaS_TypeOfWeapon>(APaS_TypeOfWeapon::StaticClass());
 }
 
@@ -323,173 +325,48 @@ void APlayerShip::MoveVertical(float AxisValue)
 	Current_Y_Velocity = Velocity * AxisValue;
 }
 
-// Metodo para el disparo de la arma 1
+// Metodo para seleccion de la arma 1
 void APlayerShip::ShootBullet1()
 {
-	// si el arma no esta potenciada dispara sola una bala y tambien si tenemos municiones
-	if (NumbersBulletsGun1 > 0 && PosBull == false)
-	{
-		/*
-		const FVector FireDirection = FVector(1.f, 0.f, 0.f);
-		const FRotator FireRotation = FireDirection.Rotation();
+	// seleccionamos el arma 1
+	ValueShootWeapon = 1;
 
-		const FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(BulletShotDistance12);
-		UWorld* const World = GetWorld();
-		// engendrando la bala
-		if (World != nullptr)
-			World->SpawnActor<APJ_BulletLevel1>(SpawnLocation, FireRotation);
-		// sonido de disparo
-		if(SoundBullet1 != nullptr)
-			UGameplayStatics::PlaySoundAtLocation(this, SoundBullet1, GetActorLocation());*/
-
-		ValueShootWeapon = 1;
-
-		// quitamos una bala
-		//NumbersBulletsGun1 -= 1;
-	}
-
-	
-	// si el arma esta potenciada dispara 3 balas y tambien si tenemos municiones
-	if (NumbersBulletsGun1 > 0 && PosBull == true) {
-		// ubicacion y rotacion de una de las tres bala (arriba)
-		const FVector FireDirection1 = FVector(1.f, 0.2f, 0.f);
-		const FRotator FireRotation1 = FireDirection1.Rotation();
-		const FVector SpawnLocation1 = GetActorLocation() + FireRotation1.RotateVector(BulletShotDistance11);
-
-		// ubicacion y rotacion de una de las tres bala (medio)
-		const FVector FireDirection2 = FVector(1.f, 0.f, 0.f);
-		const FRotator FireRotation2 = FireDirection2.Rotation();
-		const FVector SpawnLocation2 = GetActorLocation() + FireRotation2.RotateVector(BulletShotDistance12);
-
-		// ubicacion y rotacion de una de las tres bala (abajo)
-		const FVector FireDirection3 = FVector(1.f, -0.2f, 0.f);
-		const FRotator FireRotation3 = FireDirection3.Rotation();
-		const FVector SpawnLocation3 = GetActorLocation() + FireRotation3.RotateVector(BulletShotDistance13);
-
-		// engendrando las balas
-		UWorld* const World = GetWorld();
-		if (World != nullptr) {
-			World->SpawnActor<APJ_BulletLevel1>(SpawnLocation1, FireRotation1);
-			World->SpawnActor<APJ_BulletLevel1>(SpawnLocation2, FireRotation2);
-			World->SpawnActor<APJ_BulletLevel1>(SpawnLocation3, FireRotation3);
-		}
-		// sonido de disparo
-		if (SoundBullet1 != nullptr)
-			UGameplayStatics::PlaySoundAtLocation(this, SoundBullet1, GetActorLocation());
-		// quitamos una bala
-		NumbersBulletsGun1 -= 3;
-	}
-	// para verificar cuando se acaben las balas sea 0
-	if (NumbersBulletsGun1 < 0)
-		NumbersBulletsGun1 = 0;
+	// sonido de seleccion de arma
+	if (SoundSelectWeapon != nullptr)
+		UGameplayStatics::PlaySoundAtLocation(this, SoundSelectWeapon, GetActorLocation());
 }
 
-// Metodo para el disparo de la arma 2
+// Metodo para seleccion de la arma 2
 void APlayerShip::ShootBullet2()
 {
-	// si el arma no esta potencia dispara una sola bala y tambien si tenemos municiones
-	if (NumbersBulletsGun2 > 0 && PosBull == false)
-	{
-		/*
-		const FVector FireDirection = FVector(1.f, 0.f, 0.f);
-		const FRotator FireRotation = FireDirection.Rotation();
-		const FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(BulletShotDistance22);
-		// engendrando la bala
-		UWorld* const World = GetWorld();
-		if (World != nullptr)
-			World->SpawnActor<APJ_BulletLevel2>(SpawnLocation, FireRotation);
-		// sonido de disparo
-		if (SoundBullet2 != nullptr)
-			UGameplayStatics::PlaySoundAtLocation(this, SoundBullet2, GetActorLocation());*/
+	// seleccionamos el arma 2
+	ValueShootWeapon = 2;
 
-		ValueShootWeapon = 2;
-
-		// quitamos una bala
-		//NumbersBulletsGun2 -= 1;
-	}
-
-	// si la arma esta potenciada dispara tres balas y tambien si tenemos municiones
-	if (NumbersBulletsGun2 > 0 && PosBull == true) {
-		// direccion y rotacion para las tres balas seran las mismas
-		const FVector FireDirection = FVector(1.f, 0.f, 0.f);
-		const FRotator FireRotation = FireDirection.Rotation();
-
-		// ubicacion de una de las balas (arriba)
-		const FVector SpawnLocation1 = GetActorLocation() + FireRotation.RotateVector(BulletShotDistance21);
-		// ubicacion de una de las balas (medio)
-		const FVector SpawnLocation2 = GetActorLocation() + FireRotation.RotateVector(BulletShotDistance22);
-		// ubicacion de una de las balas (abajo)
-		const FVector SpawnLocation3 = GetActorLocation() + FireRotation.RotateVector(BulletShotDistance23);
-
-		// engendrando las balas
-		UWorld* const World = GetWorld();
-		if (World != nullptr) {
-			World->SpawnActor<APJ_BulletLevel2>(SpawnLocation1, FireRotation);
-			World->SpawnActor<APJ_BulletLevel2>(SpawnLocation2, FireRotation);
-			World->SpawnActor<APJ_BulletLevel2>(SpawnLocation3, FireRotation);
-		}
-		// sonido de disparo
-		if (SoundBullet2 != nullptr)
-			UGameplayStatics::PlaySoundAtLocation(this, SoundBullet2, GetActorLocation());
-
-		// quitamos tres bala
-		NumbersBulletsGun2 -= 3;
-	}
-	// para verificar que si no hay balas este sea 0
-	if (NumbersBulletsGun2 < 0)
-		NumbersBulletsGun2 = 0;
+	// sonido de seleccion de arma
+	if (SoundSelectWeapon != nullptr)
+		UGameplayStatics::PlaySoundAtLocation(this, SoundSelectWeapon, GetActorLocation());
 }
 
-// Metodo para el disparo del laser
+// Metodo para seleccion del laser
 void APlayerShip::ShootLaser()
 {
-	// dispara laser si tenemos municiones
-	if (NumbersLaserBullets > 0)
-	{
-		/*
-		// direccion, rotacion y ubicacion del laser
-		const FVector FireDirection = FVector(0.f, 0.f, 0.f);
-		const FRotator FireRotation = FireDirection.Rotation();
-		const FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(LaserShotDistance);
-		// 
-		UWorld* const World = GetWorld();
-		if (World != nullptr)
-			World->SpawnActor<APJ_Laser>(SpawnLocation, FireRotation);
-		// sonido de disparo
-		if (SoundLaser != nullptr)
-			UGameplayStatics::PlaySoundAtLocation(this, SoundLaser, GetActorLocation());*/
+	// seleccionamos el arma3 = laser
+	ValueShootWeapon = 3;
 
-		ValueShootWeapon = 3;
-
-		// quitamos un laser
-		//NumbersLaserBullets -= 1;
-	}
+	// sonido de seleccion de arma
+	if (SoundSelectWeapon != nullptr)
+		UGameplayStatics::PlaySoundAtLocation(this, SoundSelectWeapon, GetActorLocation());
 }
 
-// Metodo para el disparo del misil
+// Metodo para seleccion del misil
 void APlayerShip::ShootMissile()
 {
-	// disparamos misiles si tenemos municiones
-	if (NumbersMissileBullets > 0)
-	{
-		/*
-		// direccion, rotacion y ubicacion del missil
-		const FVector FireDirection = FVector(1.f, 0.f, 0.f);
-		const FRotator FireRotation = FireDirection.Rotation();
-		const FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(MissileShotDistance);
-		// engendrar el misil
-		UWorld* const World = GetWorld();
-		if (World != nullptr)
-			World->SpawnActor<APJ_Missile>(SpawnLocation, FireRotation);
-		// sonido de disparo
-		if (SoundMissile != nullptr)
-			UGameplayStatics::PlaySoundAtLocation(this, SoundMissile, GetActorLocation());*/
+	// seleccionamos el arma4 = misil
+	ValueShootWeapon = 4;
 
-		ValueShootWeapon = 4;
-
-		// quitamos un misil
-		//NumbersMissileBullets -= 1;
-	}
+	// sonido de seleccion de arma
+	if (SoundSelectWeapon != nullptr)
+		UGameplayStatics::PlaySoundAtLocation(this, SoundSelectWeapon, GetActorLocation());
 }
 
 void APlayerShip::ShootWeapon()
@@ -530,24 +407,28 @@ void APlayerShip::ShootWeapon()
 		if (NumbersLaserBullets <= 0)
 			TypeOfWeapon->AlterShoot(nullptr);
 
+		// sonido de disparo
 		if (SoundLaser != nullptr)
 			UGameplayStatics::PlaySoundAtLocation(this, SoundLaser, GetActorLocation());
 	}
-	if (ValueShootWeapon == 4 && NumbersMissileBullets > 0)
+	if (ValueShootWeapon == 4 && NumbersMissileBullets >= 0)
 	{
 		APaS_Missile* Missilee = GetWorld()->SpawnActor<APaS_Missile>(APaS_Missile::StaticClass());
 		TypeOfWeapon->AlterShoot(Missilee);
 		NumbersMissileBullets -= 1;
 
-		if (NumbersMissileBullets <= 0)
+		if (NumbersMissileBullets < 0)
 			TypeOfWeapon->AlterShoot(nullptr);
 
+		// sonido de disparo
 		if (SoundMissile != nullptr)
 			UGameplayStatics::PlaySoundAtLocation(this, SoundMissile, GetActorLocation());
 
 	}
 
+	// obtenemos la ubicacion del jugador
 	FVector LocationPlayer = GetActorLocation();
 
-	TypeOfWeapon->Change(LocationPlayer);
+	// para usar el arma seleccionada
+	TypeOfWeapon->UseWeapon(LocationPlayer, PosBull);
 }

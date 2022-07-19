@@ -49,8 +49,6 @@
 #include "C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PJ_BulletLevel2.gen.cpp"
 #include "C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PJ_Laser.gen.cpp"
 #include "C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PJ_Missile.gen.cpp"
-#include "C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/PlayerShip.gen.cpp"
 #include "C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/Projectile.gen.cpp"
 #include "C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/SpaceShip.gen.cpp"
-#include "C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/StarFighter.init.gen.cpp"
 #include "C:/SIS457/Proyecto Final/StarFighter/Intermediate/Build/Win64/UE4Editor/Inc/StarFighter/StarFighterGameModeBase.gen.cpp"

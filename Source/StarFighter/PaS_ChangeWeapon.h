@@ -19,6 +19,6 @@ class STARFIGHTER_API IPaS_ChangeWeapon
 
 	// Agregue funciones de interfaz a esta clase.
 public:
-	
-	virtual void ShootWeapon(FVector LocationPlayer) = 0;
+	// metodo de disparo de armas 
+	virtual void ShootWeapon(FVector LocationPlayer, bool WeaponPower) = 0;
 };
