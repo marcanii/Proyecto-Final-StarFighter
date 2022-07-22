@@ -22,5 +22,16 @@ Diagrama de clases de las capsulas
 
 ![image](https://user-images.githubusercontent.com/78616513/180296247-9840dab5-a105-49bf-bda7-d79787765a65.png)
 
+### Estructura de los patrones utilizados
 
+Patron Factory Method
 
+![image](https://user-images.githubusercontent.com/78616513/180475952-98644f93-cbee-4928-9160-f4f5bd1fb0ba.png)
+
+Patron Strategy
+
+![image](https://user-images.githubusercontent.com/78616513/180476689-98c35236-ce63-4288-ad1f-9ae9cf419a53.png)
+
+Patron Builder
+
+![image](https://user-images.githubusercontent.com/78616513/180476071-cffc3cb5-0dd5-4493-aa74-481326a99a07.png)
